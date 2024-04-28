@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+.main-wrapper {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 14rem auto;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.avatar img {
+    border-radius: 10em;
+    /* height: 14em; */
+    width: 100px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.avatar h1 {
+    font-size: 26px;
+}
+
+.sec-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7em;
+    margin: 0px 58px;
+}
+
+.avail-job {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+}
+
+.activation {
+    background-color: green;
+    width: 1em;
+    height: 1em;
+    border-radius: 10em;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+    justify-content: end;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 117px;
+}
+
+.buttons {
+    position: relative;
+}
+
+.bckgrnd {
+    width: 36px;
+    height: 22px;
+    background: rgba(231, 231, 231, 1);
+    border-radius: 1em;
+}
+
+.button {
+    width: 14px;
+    height: 14px;
+    background: black;
+    border-radius: 1em;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 3.9px;
+    left: 5px;
+}
+
+.about-contact-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 117px;
+    text-align: center;
+    margin-top: 15em;
+}
+
+.about-contact-work p{
+    font-size: 16px;
+}
