@@ -4,7 +4,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     overflow-x: hidden;
 }
 
@@ -12,7 +12,13 @@ html {
     width: 100%;
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 14rem auto;
+    grid-template-columns: 22rem auto;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .avatar {
@@ -43,6 +49,16 @@ html {
     margin: 0px 58px;
 }
 
+.sec-nav p {
+    font-family: 'Kodchasan';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
 .avail-job {
     display: flex;
     align-items: center;
@@ -68,6 +84,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     width: 117px;
+    margin: 1.5em;
 }
 
 .buttons {
@@ -94,15 +111,266 @@ html {
     left: 5px;
 }
 
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.375em;
+    margin-top: 14.9em;
+    /* flex-direction: row; */
+}
+
+.socials div {
+    /* width: 14px; */
+}
+
 .about-contact-work {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 117px;
     text-align: center;
-    margin-top: 15em;
+    margin-top: 8em;
 }
 
 .about-contact-work p{
     font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
+
+.hero {
+    margin: 0px 58px;
+}
+
+.about h1 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.about p {
+    font-family: 'Kodchasan';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.paragraph {
+    margin-top: 35px;
+    /* max-width: 74%; */
+    max-width: 542px;
+}
+
+.yellow {
+    background: rgba(246, 255, 139, 0.5);
+    padding: 6px 8px 6px;
+    border-radius: 30px;
+}
+
+.blue {
+    background: rgba(89, 185, 255, 0.5);
+    padding: 6px 10px 6px;
+    border-radius: 30px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume .avi {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.resume img{
+    display: flex;
+    width: 30em;
+    border-radius: 100%;
+}
+
+.resume p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.stack p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+.stack div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.skills-wrapper {
+    margin: 0px 58px;
+    margin-top: 100px;
+    margin-top: 100px;
+    background: linear-gradient(311.77deg, rgba(247, 253, 255, 0.4) 1.18%, rgba(228, 244, 255, 0.4) 83.36%);    
+    padding: 90px 123px 87px 90px;
+}
+
+.skills-set {
+    margin-bottom: 87px;
+}
+
+.connect-wrapper {
+     margin: 0 auto;
+    width: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.connect-wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.connect-wrapper h1{
+    font-family: 'Kodchasan';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    /* gap: 8rem; */
+    gap: 98px;
+}
+
+.head h1 {
+    font-family: 'Kodchasan';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.skill-set p {
+    font-family: 'Kodchasan';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.details p {
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.blue {
+    background: rgba(89, 185, 255, 0.5);
+    width: 322px;
+    height: 53px;
+    top: 1831px;
+    left: 929px;
+    gap: 0px;
+    border-radius: 30px;
+}
+
+.connect-wrapper p {
+    font-family: 'Kodchasan';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    letter-spacing: 0.05em;
+}
+
+.connect-wrapper img {
+    border-radius: 100px;
+    width: 100px;
+}
+
+.yellow {
+    width: 322px;
+    height: 53px;
+    top: 1831px;
+    left: 929px;
+    gap: 0px;
+    border-radius: 30px;
+    background: rgba(246, 255, 139, 0.5);
+}
+
+.green {
+    width: 322px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(74, 218, 88, 0.4);
+    margin-top: 33px;
+}
+
+.skills {
+    margin-bottom: 80px;
+}
+
+.skills-grid {
+    margin: 0px 58px;
+    margin-top: 69px;
+}
+
+.skills-grid div p {
+    margin-bottom: 20px;
+}
+
+.skills-grid p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(58, 172, 255, 1);
+}
+
+.imggs img {
+    width: 315px; 
+    height: 200px;
+}
+
+.grid {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
